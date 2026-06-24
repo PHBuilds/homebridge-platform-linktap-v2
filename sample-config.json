@@ -1,0 +1,20 @@
+{
+  "platforms": [
+    {
+      "platform": "LinkTapPlatform",
+      "username": "your_linktap_username",
+      "apiKey": "your_api_key",
+      "gatewayId": "your_gateway_id",
+      "pollInterval": 5,
+      "taps": [
+        {
+          "name": "Garden Tap",
+          "location": "Back garden",
+          "taplinkerId": "your_taplinker_id",
+          "duration": 10,
+          "autoBack": true
+        }
+      ]
+    }
+  ]
+}
